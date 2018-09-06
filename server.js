@@ -92,7 +92,7 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
-app.get('/pagecount', function (req, res) {
+app.get('/pagecount1', function (req, res) {
   res.send('{name:test}');
 });
 
