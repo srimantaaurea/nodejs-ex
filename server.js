@@ -92,6 +92,10 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+app.get('/pagecount', function (req, res) {
+  res.send('{name:test}');
+});
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
